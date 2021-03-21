@@ -133,7 +133,7 @@
     }
     @include respond(phone) {
         .navbar {
-            width: 50rem;
+            width: 100%;
            
         }
     }
