@@ -120,17 +120,17 @@
       }
   }
 
-  @include respond(tab-land) { // width < 1200?
-         //1 rem = 9px, 9/16 = 50%
-    }
+//   @include respond(tab-land) { // width < 1200?
+//          //1 rem = 9px, 9/16 = 50%
+//     }
 
-    @include respond(tab-port) { // width < 900?
-         //1 rem = 8px, 8/16 = 50%
-    }
+//     @include respond(tab-port) { // width < 900?
+//          //1 rem = 8px, 8/16 = 50%
+//     }
     
-    @include respond(big-desktop) {
-         //1rem = 12, 12/16
-    }
+//     @include respond(big-desktop) {
+//          //1rem = 12, 12/16
+//     }
     @include respond(phone) {
         .navbar {
             width: 100%;
