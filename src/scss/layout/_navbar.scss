@@ -1,0 +1,139 @@
+.navbar {
+  position: fixed;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 30rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+  z-index: 1;
+  background: $black;
+  overflow-y: auto;
+
+  &_profile {
+    align-self: flex-start;
+    width: 100%;
+    margin: 10rem 0 3rem 0;
+    text-align: center;
+    &-img {
+        width: 12rem;
+        border-radius: 100px;
+        border: 10px solid $light-grey;
+    }
+  }
+
+  &_contact {
+      
+      margin: 4rem 0;
+      text-align: center;
+      i {
+          margin: 0 2rem;
+          background-color: $light-grey;
+          padding: 1rem;
+          border-radius: 100px;
+          color: #fff;
+          font-size: 1.6rem;
+          transition: all .2s;
+
+          &:hover {
+              color: $blue;
+              cursor: pointer;
+          }
+      }
+  }
+
+  &_list {
+      margin: 4rem 3rem;
+      
+      &-link {
+          list-style: none;
+          width: 20rem;
+          height: 4rem;
+          background-color: $light-grey;
+          margin: 2rem auto;
+          border-radius: 5px;
+          position: relative;
+
+          a, i {
+            color: #fff;
+            font-size: 1.6rem;
+            position: absolute;
+            top: 50%;
+            transition: all .2s;
+          }
+
+          a {
+            text-decoration: none;
+            left: 55%;
+            transform: translate(-50%, -50%);
+          }
+
+          i {
+            
+            left: 35%;
+            transform: translate(-50%, -50%);
+            
+          }
+
+          &:hover {
+              cursor: pointer;
+
+              a, i {
+                  color: $blue;
+              }
+          }
+          
+      }
+  }
+}
+
+.navbar_checkbox {
+    position: absolute;
+    visibility: hidden;
+}
+.navbar_checkbox:checked ~ .navbar {
+    opacity: 1;
+    visibility: visible;
+  }
+
+.navbar_btn {
+      position: absolute;
+      margin: 2.5rem 1.5rem;
+      padding: 1.5rem;
+      background-color: $light-grey;
+      display: inline-block;
+      border-radius: 5px;
+      z-index: 2;
+      i {
+          font-size: 2rem;
+          color: #fff;
+          transition: all .2s;
+      }
+
+      &:hover {
+          cursor: pointer;
+          i {
+              color: $blue;
+          }
+      }
+  }
+
+  @include respond(tab-land) { // width < 1200?
+         //1 rem = 9px, 9/16 = 50%
+    }
+
+    @include respond(tab-port) { // width < 900?
+         //1 rem = 8px, 8/16 = 50%
+    }
+    
+    @include respond(big-desktop) {
+         //1rem = 12, 12/16
+    }
+    @include respond(phone) {
+        .navbar {
+            width: 50rem;
+           
+        }
+    }
