@@ -17,10 +17,10 @@ export default function Navbar() {
                 <a href="mailto:adityapremsharma@gmail.com"><i class="far fa-envelope"></i></a>
             </div>
             <ul className="navbar_list">
-                <li className="navbar_list-link"><i class="fa fa-home"></i><a href="#">Home</a></li>
-                <li className="navbar_list-link"><i class="fa fa-user"></i><a href="#">About</a></li>
-                <li className="navbar_list-link"><i class="fa fa-file-code"></i><a href="#">Projects</a></li>
-                <li className="navbar_list-link"><i class="fa fa-phone-square"></i><a href="#">Contact</a></li>
+                <li className="navbar_list-link"><i class="fa fa-home"></i><a href="www.try.com">Home</a></li>
+                <li className="navbar_list-link"><i class="fa fa-user"></i><a href="www.try.com">About</a></li>
+                <li className="navbar_list-link"><i class="fa fa-file-code"></i><a href="www.try.com">Projects</a></li>
+                <li className="navbar_list-link"><i class="fa fa-phone-square"></i><a href="www.try.com">Contact</a></li>
             </ul>
         </navbar>
         </>
