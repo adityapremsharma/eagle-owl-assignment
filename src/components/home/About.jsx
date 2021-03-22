@@ -33,7 +33,7 @@ export default function About() {
                 <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
                 <div className="card-primary">
                     <i class="fas fa-mobile-alt"></i>
-                    <p>Native Application</p> 
+                    <p>Native Apps</p> 
                 </div>
                      
                 </div>

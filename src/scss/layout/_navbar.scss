@@ -155,4 +155,11 @@
     .navbar_checkbox:checked ~ .navbar-toggle {
     margin-left: 0;
   }
+
+  .navbar_btn {
+      padding: 1.5rem;
+      i {
+          font-size: 2.5rem;
+      }
     }
+}
