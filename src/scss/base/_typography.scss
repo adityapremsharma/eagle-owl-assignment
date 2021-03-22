@@ -11,7 +11,32 @@
             
         }
 
+.header-mb-primary {
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    line-height: 2rem;
+
+    padding: 2rem;
+        position: relative;
+        display: inline-block;
+        margin-bottom: 5rem;
+
+        &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        border-bottom: 3px solid $blue;
+        transition: all 0.3s;
+        }
+}
+
         
+.para-primary {
+        font-size: 1.6rem;
+        letter-spacing: 0.1rem;
+        line-height: 3rem;
+        text-align: start;
+    }
 
 
     @include respond(phone) {

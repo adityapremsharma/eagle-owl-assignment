@@ -38,7 +38,7 @@
       i {
           margin: 0 2rem;
           background-color: $light-grey;
-          padding: 1rem;
+          padding: 1.5rem;
           border-radius: 100px;
           color: #fff;
           font-size: 1.6rem;
@@ -128,27 +128,31 @@
   }
 
   .navbar-toggle {
-    transition: all 0.5s;
+    transition: all 0.2s;
 }
 
 .navbar_checkbox:checked ~ .navbar-toggle {
     margin-left: 30rem;
   }
 
-//   @include respond(tab-land) { // width < 1200?
-//          //1 rem = 9px, 9/16 = 50%
+//   @include respond(tab-land) {
+      
 //     }
 
-//     @include respond(tab-port) { // width < 900?
-//          //1 rem = 8px, 8/16 = 50%
+//     @include respond(tab-port) {
+        
 //     }
     
 //     @include respond(big-desktop) {
-//          //1rem = 12, 12/16
+    
 //     }
     @include respond(phone) {
         .navbar {
             width: 100%;
            
         }
+
+    .navbar_checkbox:checked ~ .navbar-toggle {
+    margin-left: 0;
+  }
     }

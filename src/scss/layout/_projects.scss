@@ -1,0 +1,33 @@
+.projects {
+    padding: 7rem;
+    background-color: $black;
+    transition: all 0.5s;
+    overflow: hidden;
+    color: #fff;
+
+    h2 {
+        
+        &::before {
+            
+        width: 5rem;
+        } 
+        
+        &:hover::before {
+            width: 13rem;
+        }
+    }
+
+    .card-primary {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .para-primary {
+        margin: 3rem 0;
+    }
+
+    &_btn {
+        text-align: center;
+    }
+}
