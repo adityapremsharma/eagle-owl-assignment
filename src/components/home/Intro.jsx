@@ -7,8 +7,8 @@ export default function Intro() {
             <div className="bg-dim">
             <div className="intro_container">
             <div className="intro_title">
-                <h2>Hi there! I'm Aditya. I'm a</h2>
-                <h1><Typewriter 
+                <h2 className="header-secondary">Hi there! I'm Aditya. I'm a</h2>
+                <h1 className="header-primary"><Typewriter 
                 options={{
                     strings: ['Web Developer.', 'Freelancer.', "Native Developer.", "UX Designer.", "Music Producer."],
                     autoStart: true,

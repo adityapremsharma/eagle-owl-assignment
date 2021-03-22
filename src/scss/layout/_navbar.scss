@@ -24,6 +24,13 @@
     }
   }
 
+          &_name {
+    color: #fff;
+    width: 100%;
+    top: 0;
+    text-align: center;
+}
+
   &_contact {
       
       margin: 4rem 0;
@@ -99,7 +106,7 @@
   }
 
 .navbar_btn {
-      position: absolute;
+      position: fixed;
       margin: 2.5rem 1.5rem;
       padding: 1.5rem;
       background-color: $light-grey;
@@ -118,6 +125,14 @@
               color: $blue;
           }
       }
+  }
+
+  .navbar-toggle {
+    transition: all 0.5s;
+}
+
+.navbar_checkbox:checked ~ .navbar-toggle {
+    margin-left: 30rem;
   }
 
 //   @include respond(tab-land) { // width < 1200?

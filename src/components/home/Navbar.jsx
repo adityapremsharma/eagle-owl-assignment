@@ -10,7 +10,7 @@ export default function Navbar() {
             <div className="navbar_profile">
                 <img className="navbar_profile-img" alt="logo" src={dp} />
             </div>
-            <h1 className="header-1">Aditya Prem Sharma</h1>
+            <h1 className="navbar_name">Aditya Prem Sharma</h1>
             <div className="navbar_contact">
                 <i class="fab fa-instagram"></i>
                 <a href="https://www.linkedin.com/in/aditya-prem-sharma/"><i class="fab fa-linkedin-in"></i></a>

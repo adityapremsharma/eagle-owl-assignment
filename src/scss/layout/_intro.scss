@@ -15,24 +15,12 @@
     &_title {
         color: #fff;
 
-        h2 {
-            font-size: 3rem;
-            letter-spacing: 0.3rem;
-            line-height: 2rem;
-            
-        }
-
         h1 {
-            font-size: 5rem;
-            letter-spacing: 0.3rem;
-            line-height: 10rem;
+            margin-bottom: 1px solid $blue;
         }
     }
 
 }
-.navbar_checkbox:checked ~ .intro {
-    margin-left: 30rem;
-  }
 
     @include respond(tab-land) { 
         .intro {
@@ -52,17 +40,5 @@
     @include respond(phone) {
         .intro {
             background-image: url(../../media/images/bg-mob.jpg);
-    &_title {
-        
-        h2 {
-            font-size: 2.5rem;
-            letter-spacing: 0.2rem;
-        }
-
-        h1 {
-            font-size: 4rem;
-            letter-spacing: 0.2rem;
-        }
-    }
         }
     }

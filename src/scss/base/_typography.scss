@@ -1,6 +1,28 @@
-.header-1 {
-    color: #fff;
-    width: 100%;
-    top: 0;
-    text-align: center;
-}
+.header-primary {
+            font-size: 5rem;
+            letter-spacing: 0.3rem;
+            line-height: 10rem;
+        }
+
+.header-secondary {
+            font-size: 3rem;
+            letter-spacing: 0.3rem;
+            line-height: 2rem;
+            
+        }
+
+        
+
+
+    @include respond(phone) {
+
+        .header-secondary {
+            font-size: 2.5rem;
+            letter-spacing: 0.2rem;
+        }
+
+        .header-primary {
+            font-size: 4rem;
+            letter-spacing: 0.2rem;
+        }
+    }
