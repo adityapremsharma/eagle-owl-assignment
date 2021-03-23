@@ -12,7 +12,7 @@ export default function Testimonials() {
     <div className="d-block w-100 carousel">
     <p className="para-secondary">I have closely worked with him. He has some really fresh talent and work ethics. One of the best experiences working with him. I highly recommend his work.</p>
     <div className="carousel_user">
-    <img className="carousel_user_img" src={testimonial_1} />
+    <img className="carousel_user_img" src={testimonial_1} alt="testimonial-1" />
     <div className="carousel_user_text">
       <h3>Vaishnavi Prem Sharma</h3>
     <p>BA LLB</p>
