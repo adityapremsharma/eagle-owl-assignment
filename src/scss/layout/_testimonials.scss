@@ -1,0 +1,32 @@
+.testimonials {
+    padding: 7rem;
+background-color: $light-grey;
+color: #fff;
+
+
+
+h2 {
+&::before {
+
+        width: 5rem;
+        } 
+        
+        &:hover::before {
+            width: 21rem;
+        }
+}
+
+    h3, p {
+        color: #fff;
+    }
+}
+
+@include respond(phone) {
+    .testimonials {
+        
+        padding: 7rem 2rem;
+        h2 {
+            padding: 2rem 7rem;
+        }
+    }
+}

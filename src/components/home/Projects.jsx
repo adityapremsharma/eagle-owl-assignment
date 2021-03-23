@@ -20,7 +20,7 @@ export default function Projects() {
                      
                 </div>
             </div>
-
+            
             <div className="para-primary">
                 <p>As they say, if your company is not on the internet, Your company doesn't exist. Don't worry, I got ya. 
                 Take your business online now with the most popular web application framework out there (React JS), 
