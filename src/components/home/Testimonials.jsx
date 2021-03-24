@@ -15,7 +15,7 @@ export default function Testimonials() {
     <img className="carousel_user_img" src={testimonial_1} alt="testimonial-1" />
     <div className="carousel_user_text">
       <h3>Vaishnavi Prem</h3>
-    <p>BA LLB</p>
+    <p>Patna, India</p>
     </div>
     
     </div>
