@@ -47,9 +47,14 @@
 @include respond(phone) {
 
     .contact {
+        padding: 7rem 4rem;
+        h2 {
+            padding: 2rem 5rem;
+        }
         &_form {
             form {
                 width: 100%;
+                padding: 2rem 2.5rem;
             }
         }
     }

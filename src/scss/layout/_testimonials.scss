@@ -2,8 +2,11 @@
     padding: 7rem;
 background-color: $light-grey;
 color: #fff;
+overflow: hidden;
 
-
+.para-secondary {
+    text-align: justify;
+}
 
 h2 {
 &::before {
