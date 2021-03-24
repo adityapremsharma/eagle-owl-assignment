@@ -12,7 +12,7 @@ export default function Navbar() {
             </div>
             <h1 className="navbar_name">Aditya Prem Sharma</h1>
             <div className="navbar_contact">
-                <i class="fab fa-instagram"></i>
+                <a href="https://www.instagram.com/adityaprem99/"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/aditya-prem-sharma/"><i class="fab fa-linkedin-in"></i></a>
                 <a href="mailto:adityapremsharma@gmail.com"><i class="far fa-envelope"></i></a>
             </div>
