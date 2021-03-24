@@ -1,11 +1,12 @@
 .carousel {
         width: 100%;
         height: 50vh;
+        padding: 0 10rem 50rem;
         text-align: center;
-        padding: 0 10rem;
 
         &_user {
           padding-top: 2rem;
+
           &_img {
           width: 10rem;
           border-radius: 50%;
@@ -38,10 +39,10 @@
         }
     }
 
-        @include respond(tab-port) {
+        @include respond(tab-land) {
       .carousel {
         
-        padding: 0 5rem;
+        padding: 0 5rem 20rem;
 
         &_user {
           &_img {
@@ -61,11 +62,11 @@
     @include respond(phone) {
       .carousel {
         
-        padding: 0 3rem;
+        padding: 0 3rem 0;
 
         &_user {
           &_img {
-            width: 7.5rem;
+            width: 6rem;
           }
 
           &_text {
