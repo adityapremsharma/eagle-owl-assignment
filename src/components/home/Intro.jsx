@@ -18,7 +18,7 @@ export default function Intro() {
                 </div>
             
             <div>
-                <a href="www.test.com"><button className="btn-primary">Get Started</button></a>
+                <button className="btn-primary">Get Started</button>
                 <a href="www.test.com"><button className="btn-primary">Learn More</button></a>
                 </div>
                 </div>

@@ -11,28 +11,28 @@ export default function About() {
             <div className="row">
                 <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
                 <div className="card-primary">
-                    <i class="fab fa-react"></i>
+                    <i className="fab fa-react"></i>
                     <p>React JS</p>
                 </div>
                     
                 </div>
                 <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
                 <div className="card-primary">
-                    <i class="fas fa-code"></i>
+                    <i className="fas fa-code"></i>
                     <p>Programming</p>
                 </div>
                       
                 </div>
                 <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
                 <div className="card-primary">
-                    <i class="fas fa-address-card"></i>
+                    <i className="fas fa-address-card"></i>
                     <p>UX Design</p>  
                 </div>
                     
                 </div>
                 <div className="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
                 <div className="card-primary">
-                    <i class="fas fa-mobile-alt"></i>
+                    <i className="fas fa-mobile-alt"></i>
                     <p>Native Apps</p> 
                 </div>
                      

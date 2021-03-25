@@ -7,14 +7,14 @@ export default function Projects() {
             <div className="row">
                 <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                 <div className="card-primary">
-                    <i class="fab fa-react"></i>
+                    <i className="fab fa-react"></i>
                     <p>To Do List using React JS</p>
                 </div>
                     
                 </div>
                 <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                 <div className="card-primary">
-                    <i class="fas fa-mobile-alt"></i>
+                    <i className="fas fa-mobile-alt"></i>
                     <p>Cure & Fit app using React Native</p> 
                 </div>
                      
