@@ -5,7 +5,7 @@ export default function ContactHome() {
 
     const db = firebase.firestore();
 
-    const [search, setSearch] = useState("")
+    // const [search, setSearch] = useState("")
     const [contactHomeData, setContactHomeData] = useState([])
 
 //     const fetchBlogs = async() => {
