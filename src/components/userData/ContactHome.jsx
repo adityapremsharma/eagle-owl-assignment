@@ -17,7 +17,11 @@ export default function ContactHome() {
 //     })
 // }
 
-    const getContactHome = async() => {
+    
+
+
+    useEffect(() => {
+        const getContactHome = async() => {
     
         const collection = db.collection("contactHome")
         await collection.onSnapshot((results) => {
@@ -25,11 +29,9 @@ export default function ContactHome() {
         });
     
     }
-
-
-    useEffect(() => {
        getContactHome()
-    }, [])
+       
+    }, [contactHomeData, db])
 
 
     return (
