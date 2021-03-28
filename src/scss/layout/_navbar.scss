@@ -1,6 +1,7 @@
 .navbar {
   position: fixed;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   top: 0;
   left: 0;
   bottom: 0;
@@ -10,12 +11,13 @@
   transition: all 0.5s;
   z-index: 999;
   background: $black;
+  color: #fff;
   overflow-y: auto;
 
   &_profile {
     align-self: flex-start;
     width: 100%;
-    margin: 7.5rem 0 3rem 0;
+    padding-bottom: 3rem;
     text-align: center;
     &-img {
       width: 12rem;
@@ -25,14 +27,11 @@
   }
 
   &_name {
-    color: #fff;
-    width: 100%;
-    top: 0;
     text-align: center;
+    padding-bottom: 3rem;
   }
 
   &_contact {
-    margin: 4rem 0 0;
     text-align: center;
     i {
       margin: 0 2rem;
@@ -51,7 +50,7 @@
   }
 
   &_list {
-    margin: 4rem 3rem;
+    padding: 2rem;
 
     &-link {
       list-style: none;
