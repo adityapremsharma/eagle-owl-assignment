@@ -8,14 +8,14 @@ export default function CureAndFit() {
     <div className="cure-and-fit">
       <h2 className="header-mb-primary">Cure & Fit</h2>
       <div className="details-container row">
-        <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
           <div className="video-container pb-s">
             <video autoPlay muted loop>
               <source src={cureandfitlanding} type="video/mp4" />
             </video>
           </div>
         </div>
-        <div className="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 pb-s pl-l">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 pb-s">
           <h2 className="header-secondary pb-s">What is this app all about?</h2>
           <p className="para-primary pb-xs">
             The idea behind this app is to make it multi-purpose and
@@ -59,7 +59,7 @@ export default function CureAndFit() {
       </div>
 
       <div className="details-container row">
-        <div className="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 pb-s pr-l">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 pb-s">
           <h2 className="header-secondary pb-s">Authentication</h2>
           <p className="para-primary pb-xs">
             Landing, Log In, Sign Up page. That's all we need for
@@ -102,7 +102,7 @@ export default function CureAndFit() {
             related to mental health, yoga, meditation, just to name a few.
           </p>
         </div>
-        <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
           <div className="video-container pb-s">
             <video autoPlay muted loop>
               <source src={cureandfitworkouttracker} type="video/mp4" />
@@ -112,14 +112,14 @@ export default function CureAndFit() {
       </div>
 
       <div className="details-container row">
-        <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
           <div className="video-container pb-s">
             <video autoPlay muted loop>
               <source src={cureandfitusertracker} type="video/mp4" />
             </video>
           </div>
         </div>
-        <div className="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 pb-s pl-l">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 pb-s">
           <h2 className="header-secondary pb-s">Life Cycle</h2>
 
           <h3 className="para-tertiary">

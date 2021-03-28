@@ -44,15 +44,10 @@
 @include respond(phone) {
   .about-main {
     img {
-      width: 30rem;
+      width: 25rem;
     }
   }
 }
 
 @include respond(big-desktop) {
-  .about-main {
-    img {
-      width: 100rem;
-    }
-  }
 }
