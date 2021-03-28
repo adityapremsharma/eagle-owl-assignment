@@ -141,9 +141,31 @@
 
 //     }
 
-//     @include respond(big-desktop) {
-
+// @include respond(big-desktop) {
+//   .navbar {
+//     &_profile {
+//       margin: 7.5rem 0 2.5rem 0;
+//       &-img {
+//         width: 10rem;
+//       }
 //     }
+//   }
+//    &_contact {
+//     margin: 3rem 0 0;
+//     i {
+//       margin: 0 2rem;
+//       background-color: $light-grey;
+//       padding: 1.5rem;
+//       font-size: 1.4rem;
+
+//       &:hover {
+//         color: $blue;
+//         cursor: pointer;
+//       }
+//     }
+//   }
+// }
+
 @include respond(phone) {
   .navbar {
     width: 100%;
