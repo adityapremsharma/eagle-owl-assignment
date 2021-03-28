@@ -34,7 +34,7 @@
 
   .video-container {
     video {
-      width: 40rem;
+      width: 30rem;
     }
   }
 
@@ -85,32 +85,32 @@
   // }
 }
 
-@include respond(tab-land) {
-  .cure-and-fit {
-    .video-container {
-      video {
-        width: 30rem;
-      }
-    }
-  }
-}
+// @include respond(tab-land) {
+//   .cure-and-fit {
+//     .video-container {
+//       video {
+//         width: 30rem;
+//       }
+//     }
+//   }
+// }
 
-@include respond(tab-port) {
-  .cure-and-fit {
-    .video-container {
-      video {
-        width: 30rem;
-      }
-    }
-  }
-}
+// @include respond(tab-port) {
+//   .cure-and-fit {
+//     .video-container {
+//       video {
+//         width: 30rem;
+//       }
+//     }
+//   }
+// }
 
-@include respond(phone) {
-  .cure-and-fit {
-    .video-container {
-      video {
-        width: 30rem;
-      }
-    }
-  }
-}
+// @include respond(phone) {
+//   .cure-and-fit {
+//     .video-container {
+//       video {
+//         width: 30rem;
+//       }
+//     }
+//   }
+// }
