@@ -18,148 +18,145 @@
     margin: 10rem 0 3rem 0;
     text-align: center;
     &-img {
-        width: 12rem;
-        border-radius: 100px;
-        border: 10px solid $light-grey;
+      width: 12rem;
+      border-radius: 100px;
+      border: 10px solid $light-grey;
     }
   }
 
-          &_name {
+  &_name {
     color: #fff;
     width: 100%;
     top: 0;
     text-align: center;
-}
+  }
 
   &_contact {
-      
-      margin: 4rem 0;
-      text-align: center;
-      i {
-          margin: 0 2rem;
-          background-color: $light-grey;
-          padding: 1.5rem;
-          border-radius: 100px;
-          color: #fff;
-          font-size: 1.6rem;
-          transition: all .2s;
+    margin: 4rem 0;
+    text-align: center;
+    i {
+      margin: 0 2rem;
+      background-color: $light-grey;
+      padding: 1.5rem;
+      border-radius: 100px;
+      color: #fff;
+      font-size: 1.6rem;
+      transition: all 0.2s;
 
-          &:hover {
-              color: $blue;
-              cursor: pointer;
-          }
+      &:hover {
+        color: $blue;
+        cursor: pointer;
       }
+    }
   }
 
   &_list {
-      margin: 4rem 3rem;
-      
-      &-link {
-          list-style: none;
-          width: 20rem;
-          height: 4rem;
-          background-color: $light-grey;
-          margin: 2rem auto;
-          border-radius: 5px;
-          position: relative;
+    margin: 4rem 3rem;
 
-          a, i {
-            color: #fff;
-            font-size: 1.6rem;
-            position: absolute;
-            top: 50%;
-            transition: all .2s;
-          }
+    &-link {
+      list-style: none;
+      width: 20rem;
+      height: 4rem;
+      background-color: $light-grey;
+      margin: 2rem auto;
+      border-radius: 5px;
+      position: relative;
 
-          a {
-            text-decoration: none;
-            left: 55%;
-            transform: translate(-50%, -50%);
-          }
-
-          i {
-            
-            left: 35%;
-            transform: translate(-50%, -50%);
-            
-          }
-
-          &:hover {
-              cursor: pointer;
-
-              a, i {
-                  color: $blue;
-              }
-          }
-          
+      span,
+      i {
+        color: #fff;
+        font-size: 1.6rem;
+        position: absolute;
+        top: 50%;
+        transition: all 0.2s;
       }
+
+      span {
+        text-decoration: none;
+        left: 55%;
+        transform: translate(-50%, -50%);
+      }
+
+      i {
+        left: 35%;
+        transform: translate(-50%, -50%);
+      }
+
+      &:hover {
+        cursor: pointer;
+
+        a,
+        i {
+          color: $blue;
+        }
+      }
+    }
   }
 }
 
 .navbar_checkbox {
-    position: absolute;
-    visibility: hidden;
+  position: absolute;
+  visibility: hidden;
 }
 .navbar_checkbox:checked ~ .navbar {
-    opacity: 1;
-    visibility: visible;
-  }
+  opacity: 1;
+  visibility: visible;
+}
 
 .navbar_btn {
-      position: fixed;
-      margin: 2.5rem 1.5rem;
-      padding: 1.5rem;
-      background-color: $light-grey;
-      display: inline-block;
-      border-radius: 5px;
-      z-index: 1000;
-      i {
-          font-size: 2rem;
-          color: #fff;
-          transition: all .2s;
-      }
-
-      &:hover {
-          cursor: pointer;
-          i {
-              color: $blue;
-          }
-      }
+  position: fixed;
+  margin: 2.5rem 1.5rem;
+  padding: 1.5rem;
+  background-color: $light-grey;
+  display: inline-block;
+  border-radius: 5px;
+  z-index: 1000;
+  i {
+    font-size: 2rem;
+    color: #fff;
+    transition: all 0.2s;
   }
 
-  .navbar-toggle {
-    transition: all 0.2s;
+  &:hover {
+    cursor: pointer;
+    i {
+      color: $blue;
+    }
+  }
+}
+
+.navbar-toggle {
+  transition: all 0.2s;
 }
 
 .navbar_checkbox:checked ~ .navbar-toggle {
-    margin-left: 30rem;
-  }
+  margin-left: 30rem;
+}
 
 //   @include respond(tab-land) {
-      
+
 //     }
 
 //     @include respond(tab-port) {
-        
-//     }
-    
-//     @include respond(big-desktop) {
-    
-//     }
-    @include respond(phone) {
-        .navbar {
-            width: 100%;
-           
-        }
 
-    .navbar_checkbox:checked ~ .navbar-toggle {
+//     }
+
+//     @include respond(big-desktop) {
+
+//     }
+@include respond(phone) {
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar_checkbox:checked ~ .navbar-toggle {
     margin-left: 0;
   }
 
   .navbar_btn {
-      padding: 1.5rem;
-      i {
-          font-size: 2.5rem;
-      }
+    padding: 1.5rem;
+    i {
+      font-size: 2.5rem;
     }
+  }
 }

@@ -1,82 +1,75 @@
 .carousel {
-        width: 100%;
-        height: 50vh;
-        padding: 0 10rem 50rem;
-        text-align: center;
+  width: 100%;
+  height: 50vh;
+  padding: 0 10rem 50rem;
+  text-align: center;
 
-        &_user {
-          padding-top: 2rem;
+  &_user {
+    padding-top: 2rem;
 
-          &_img {
-          width: 10rem;
-          border-radius: 50%;
-          margin-bottom: 2rem;
-          // display: inline-block;
-        }
-
-        &_text {
-          display: inline-block;
-          padding-left: 2rem;
-          height: 100%;
-          
-
-          h3 {
-          letter-spacing: 0.2rem;
-          font-weight: 200;
-          padding-top: 5rem;
-        }
-
-        p {
-          font-weight: 100;
-          font-style: italic;
-          font-size: 1.2rem;
-          letter-spacing: 0.2rem;
-        }
-        }
-
-        
-
-        }
+    &_img {
+      width: 10rem;
+      border-radius: 50%;
+      margin-bottom: 2rem;
+      // display: inline-block;
     }
 
-        @include respond(tab-land) {
-      .carousel {
-        
-        padding: 0 5rem 20rem;
+    &_text {
+      display: inline-block;
+      padding-left: 2rem;
+      height: 100%;
 
-        &_user {
-          &_img {
-            width: 7.5rem;
-          }
+      h3 {
+        letter-spacing: 0.2rem;
+        font-weight: 200;
+        padding-top: 5rem;
+      }
 
-          &_text {
-            h3 {
-              font-size: 1.5rem;
-            }
-          }
+      p {
+        font-weight: 100;
+        font-style: italic;
+        font-size: 1.2rem;
+        letter-spacing: 0.2rem;
+      }
+    }
+  }
+}
+
+@include respond(tab-land) {
+  .carousel {
+    padding: 0 5rem 20rem;
+
+    &_user {
+      &_img {
+        width: 7.5rem;
+      }
+
+      &_text {
+        h3 {
+          font-size: 1.5rem;
         }
       }
     }
+  }
+}
 
+@include respond(phone) {
+  .carousel {
+    padding: 0 3rem 0;
 
-    @include respond(phone) {
-      .carousel {
-        
-        padding: 0 3rem 0;
+    &_user {
+      &_img {
+        width: 6rem;
+      }
 
-        &_user {
-          &_img {
-            width: 6rem;
-          }
-
-          &_text {
-            h3 {
-              font-size: 1.5rem;
-            }
-          }
+      &_text {
+        h3 {
+          font-size: 1.5rem;
         }
       }
     }
+  }
+}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -87,20 +80,18 @@
   background-image: none;
 }
 
-.carousel-control-next-icon:after
-{
-  content: '>';
+.carousel-control-next-icon:after {
+  content: ">";
   font-size: 5.5rem;
   color: $blue;
 }
 
 .carousel-control-prev-icon:after {
-  content: '<';
+  content: "<";
   font-size: 5.5rem;
   color: $blue;
 }
 
-.carousel-indicators .active{
-    background-color: $blue;
+.carousel-indicators .active {
+  background-color: $blue;
 }
-

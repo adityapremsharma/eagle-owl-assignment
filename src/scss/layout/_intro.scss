@@ -1,56 +1,58 @@
 .intro {
-    transition: all 0.5s;
-    background-image: url(../../media/images/bg.jpg);
-    background-size: cover;
-    height: 100vh;
-    position: relative;
+  transition: all 0.5s;
+  background-image: url(../../media/images/bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
 
-    &_container {
-        @include center;
+  &_container {
+    @include center;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  &_title {
+    color: #fff;
+    h2 {
+      line-height: 2rem;
+    }
+
+    h1 {
+      margin-bottom: 1px solid $blue;
+      position: relative;
+      display: inline-block;
+
+      &::before {
+        content: "";
         width: 100%;
-        text-align: center;
-        overflow: hidden;
+        position: absolute;
+        bottom: 1rem;
+        right: 0;
+        border-bottom: 3px solid $blue;
+        transition: all 0.3s;
+      }
     }
-
-    &_title {
-        color: #fff;
-
-        h1 {
-            margin-bottom: 1px solid $blue;
-            position: relative;
-            display: inline-block;
-
-            &::before {
-                content: "";
-                width: 100%;
-                position: absolute;
-                bottom: 1rem;
-                right: 0;
-                border-bottom: 3px solid $blue;
-                transition: all 0.3s;
-            }
-        }
-    }
-
+  }
 }
 
-    @include respond(tab-land) { 
-        .intro {
+@include respond(tab-land) {
+  .intro {
     background-image: url(../../media/images/bg-tab.jpg);
-        }
-    }
+  }
+}
 
-    @include respond(tab-port) { 
-         .intro {
+@include respond(tab-port) {
+  .intro {
     background-image: url(../../media/images/bg-tab.jpg);
-         }
-    }
-    
-    @include respond(big-desktop) {
-         //1rem = 12, 12/16
-    }
-    @include respond(phone) {
-        .intro {
-            background-image: url(../../media/images/bg-mob.jpg);
-        }
-    }
+  }
+}
+
+@include respond(big-desktop) {
+  //1rem = 12, 12/16
+}
+@include respond(phone) {
+  .intro {
+    background-image: url(../../media/images/bg-mob.jpg);
+  }
+}
