@@ -38,3 +38,11 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
+@mixin center-flex {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -17,10 +17,12 @@
 
 .img-container {
   text-align: center;
+  @include center-flex;
 }
 
 .video-container {
   text-align: center;
+  @include center-flex;
 }
 
 // @include respond(phone) {

@@ -7,7 +7,7 @@ export default function About() {
       <h2 className="header-mb-primary">About</h2>
       <div className="details-container row">
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-          <div className="img-container">
+          <div className="img-container pb-s">
             <img src={dpabout} alt="dp" />
           </div>
         </div>
