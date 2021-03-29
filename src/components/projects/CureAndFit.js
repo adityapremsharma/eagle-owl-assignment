@@ -1,5 +1,5 @@
 import React from "react";
-import Video from "../extras/Video"
+import Video from "../extras/Video";
 import cureandfitlanding from "../../media/videos/cure-and-fit-landing.mp4";
 import cureandfitworkouttracker from "../../media/videos/cure-and-fit-workout-tracker.mp4";
 import cureandfitusertracker from "../../media/videos/cure-and-fit-user-tracker.mp4";

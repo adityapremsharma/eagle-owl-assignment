@@ -30,9 +30,11 @@ export default function Testimonials() {
         </Carousel.Item>
         <Carousel.Item>
           <div className="d-block w-100 carousel">
-          <p className="para-secondary mb-s">
-              Very clean design. He has amazing knowledge of UX. I have always been recommended what is best. 
-              Whenever any issue strikes on my website, he is always available to help. Beautiful work. Yes! I highly recommend him.
+            <p className="para-secondary mb-s">
+              Very clean design. He has amazing knowledge of UX. I have always
+              been recommended what is best. Whenever any issue strikes on my
+              website, he is always available to help. Beautiful work. Yes! I
+              highly recommend him.
             </p>
             <div className="carousel_user mb-s">
               <img
@@ -44,7 +46,8 @@ export default function Testimonials() {
                 <h3>Sneha Sharma</h3>
                 <p>Web Developer</p>
               </div>
-            </div></div>
+            </div>
+          </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className="d-block w-100 carousel"></div>

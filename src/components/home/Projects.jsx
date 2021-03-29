@@ -1,5 +1,5 @@
 import React from "react";
-import Card from '../extras/Card'
+import Card from "../extras/Card";
 import { Link } from "react-router-dom";
 
 export default function Projects() {
@@ -14,7 +14,10 @@ export default function Projects() {
         </div>
         <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
           <Link style={{ textDecoration: "none" }} to="/cureandfit">
-            <Card icon="fas fa-mobile-alt" name="Cure & Fit app using React Native" />
+            <Card
+              icon="fas fa-mobile-alt"
+              name="Cure & Fit app using React Native"
+            />
           </Link>
         </div>
       </div>

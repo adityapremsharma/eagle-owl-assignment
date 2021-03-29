@@ -27,7 +27,6 @@ export default function Bio() {
           <p></p>
         </div>
       </div>
-    
     </div>
   );
 }
