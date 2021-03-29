@@ -1,7 +1,7 @@
 .carousel {
-  width: 100%;
-  height: 50vh;
-  padding: 0 10rem 50rem;
+  // width: 100%;
+  // height: auto;
+  padding: 0 10rem 2rem;
   text-align: center;
 
   &_user {
@@ -22,7 +22,6 @@
       h3 {
         letter-spacing: 0.2rem;
         font-weight: 200;
-        padding-top: 5rem;
       }
 
       p {
@@ -37,7 +36,7 @@
 
 @include respond(tab-land) {
   .carousel {
-    padding: 0 5rem 20rem;
+    padding: 0 5rem 2rem;
 
     &_user {
       &_img {
@@ -55,7 +54,7 @@
 
 @include respond(phone) {
   .carousel {
-    padding: 0 3rem 0;
+    padding: 0 3rem 2rem;
 
     &_user {
       &_img {

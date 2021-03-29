@@ -1,29 +1,34 @@
 .card-primary {
-  height: 15rem;
   background-color: rgba($light-grey, 1);
   border-radius: 10px;
   text-align: center;
-  margin-bottom: 5rem;
+  @include center-flex;
+  padding: 2rem;
+  padding-top: 3rem;
+  height: auto;
+  margin-bottom: 4rem;
+  color: #fff;
+      transition: all 0.3s;
+ 
 
-  i {
+  &_details {
+i {
     font-size: 5rem;
-    margin: 2.5rem 0;
+    margin-bottom: 2rem;
   }
 
   p {
     font-size: 1.6rem;
   }
 
-  i,
-  p {
-    color: #fff;
-    transition: all 0.3s;
-  }
+    
 
+  
+  }
   &:hover {
-    i,
-    p {
+   
+ 
       color: $blue;
-    }
+
   }
 }

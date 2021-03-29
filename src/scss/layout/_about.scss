@@ -18,7 +18,7 @@
   }
 }
 
-.about-main {
+.bio {
   padding: 7rem;
   overflow: hidden;
 
@@ -28,7 +28,7 @@
     }
 
     &:hover::before {
-      width: 11rem;
+      width: 7rem;
     }
   }
 
@@ -43,6 +43,21 @@
   // }
 }
 
+.skills {
+  padding: 7rem;
+  background-color: $black;
+  color: #fff;
+
+  h2 {
+    &::before {
+      width: 5rem;
+    }
+
+    &:hover::before {
+      width: 10rem;
+    }
+  }
+}
 @include respond(phone) {
   .about-main {
     img {
