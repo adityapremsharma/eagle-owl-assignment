@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "../extras/Image";
 import dpabout from "../../media/images/dp-about.jpg";
 
 export default function Bio() {
@@ -7,8 +8,8 @@ export default function Bio() {
       <h2 className="header-mb-primary">Bio</h2>
       <div className="details-container row">
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-          <div className="img-container mb-s">
-            <img src={dpabout} alt="dp" />
+          <div className="img-container pb-l">
+            <Image src={dpabout} alt="dp" />
           </div>
         </div>
         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">

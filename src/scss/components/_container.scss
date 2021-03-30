@@ -17,11 +17,13 @@
 
 .img-container {
   text-align: center;
+  position: relative;
   @include center-flex;
 }
 
 .video-container {
   text-align: center;
+  position: relative;
   @include center-flex;
 }
 

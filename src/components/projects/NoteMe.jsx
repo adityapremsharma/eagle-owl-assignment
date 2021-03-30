@@ -1,4 +1,5 @@
 import React from "react";
+import Video from "../extras/Video";
 import noteme from "../../media/videos/note-me.mp4";
 
 export default function NoteMe() {
@@ -6,9 +7,7 @@ export default function NoteMe() {
     <div className="note-me">
       <h2 className="header-mb-primary">Note Me</h2>
       <div className="video-container pb-s">
-        <video autoPlay muted loop>
-          <source src={noteme} type="video/mp4" />
-        </video>
+        <Video src={noteme} />
       </div>
       <h2 className="header-secondary pb-s">About this project</h2>
       <p className="para-primary pb-xs">
@@ -34,7 +33,7 @@ export default function NoteMe() {
           }
           className="btn-primary"
         >
-          Launch Project
+          Launch <i class="fas fa-rocket"></i>
         </button>
       </div>
     </div>
