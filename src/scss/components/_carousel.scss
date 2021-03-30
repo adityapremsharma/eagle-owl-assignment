@@ -1,8 +1,9 @@
 .carousel {
   // width: 100%;
-  // height: auto;
+  // height: 40rem;
   padding: 0 10rem 2rem;
   text-align: center;
+  // overflow-y: auto;
 
   &_user {
     padding-top: 2rem;
@@ -80,13 +81,13 @@
 }
 
 .carousel-control-next-icon:after {
-  content: ">";
+  content: "\00BB";
   font-size: 5.5rem;
   color: $blue;
 }
 
 .carousel-control-prev-icon:after {
-  content: "<";
+  content: "\00AB";
   font-size: 5.5rem;
   color: $blue;
 }

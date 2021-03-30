@@ -7,12 +7,12 @@ export default function Bio() {
     <div className="bio">
       <h2 className="header-mb-primary">Bio</h2>
       <div className="details-container row">
-        <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-5">
           <div className="img-container pb-l">
             <Image src={dpabout} alt="dp" />
           </div>
         </div>
-        <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-7">
           <h3 className="para-secondary">Aditya Prem Sharma</h3>
           <p className="para-tertiary">Age: 22 yrs</p>
           <p className="para-tertiary">Location: Patna, India</p>
@@ -25,7 +25,6 @@ export default function Bio() {
             FL Studio
           </p>
           <p className="para-tertiary">Hobbies: Music, Travelling, Food</p>
-          <p></p>
         </div>
       </div>
     </div>

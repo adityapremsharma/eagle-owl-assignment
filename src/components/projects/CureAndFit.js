@@ -9,12 +9,12 @@ export default function CureAndFit() {
     <div className="cure-and-fit">
       <h2 className="header-mb-primary">Cure & Fit</h2>
       <div className="details-container row">
-        <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4">
           <div className="video-container mb-s">
             <Video src={cureandfitlanding} />
           </div>
         </div>
-        <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 mb-s">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-8 mb-s">
           <h2 className="header-secondary mb-s">What is this app all about?</h2>
           <p className="para-primary mb-xs">
             The idea behind this app is to make it multi-purpose and
@@ -58,7 +58,7 @@ export default function CureAndFit() {
       </div>
 
       <div className="details-container row">
-        <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 mb-s">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-8 mb-s">
           <h2 className="header-secondary mb-s">Authentication</h2>
           <p className="para-primary mb-xs">
             Landing, Log In, Sign Up page. That's all we need for
@@ -101,7 +101,7 @@ export default function CureAndFit() {
             related to mental health, yoga, meditation, just to name a few.
           </p>
         </div>
-        <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4">
           <div className="video-container mb-s">
             <Video src={cureandfitworkouttracker} />
           </div>
@@ -109,12 +109,12 @@ export default function CureAndFit() {
       </div>
 
       <div className="details-container row">
-        <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4">
           <div className="video-container mb-s">
             <Video src={cureandfitusertracker} />
           </div>
         </div>
-        <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 mb-s">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-8 mb-s">
           <h2 className="header-secondary mb-s">Life Cycle</h2>
 
           <h3 className="para-tertiary">

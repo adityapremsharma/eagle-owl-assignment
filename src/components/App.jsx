@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import ScrollToTop from './extras/ScrollToTop'
+import ScrollToTop from "./extras/ScrollToTop";
 import firebase from "firebase";
 import "../scss/main.scss";
 
@@ -34,15 +34,15 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <div className="navbar-toggle">
-        <ScrollToTop>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/contacthome" component={ContactHome} />
-            <Route exact path="/cureandfit" component={CureAndFit} />
-            <Route exact path="/noteme" component={NoteMe} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/projects" component={Projects} />
-          </Switch>
+          <ScrollToTop>
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/contacthome" component={ContactHome} />
+              <Route exact path="/cureandfit" component={CureAndFit} />
+              <Route exact path="/noteme" component={NoteMe} />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/projects" component={Projects} />
+            </Switch>
           </ScrollToTop>
         </div>
       </BrowserRouter>
