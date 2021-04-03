@@ -41,6 +41,9 @@
             font-size: 1.2rem;
             font-weight: bold;
             position: relative;
+            display: flex;
+            justify-content: center;
+
             p {
               position: absolute;
             }
@@ -67,19 +70,6 @@
                 margin-top: 1rem;
               }
             }
-
-            // .CircularProgressbar-path {
-            //   stroke: #199844;
-            // }
-            // .CircularProgressbar-trail {
-            //   stroke: gray;
-            // }
-            // .CircularProgressbar-text {
-            //   fill: #71d08a;
-            // }
-            // .CircularProgressbar-background {
-            //   fill: green;
-            // }
           }
         }
       }
@@ -97,7 +87,6 @@
       border-collapse: collapse;
       width: 100%;
       padding: 2rem;
-      position: relative;
 
       .align-right {
         text-align: right;
@@ -134,10 +123,10 @@
     }
 
     tr {
-      transition: all 0.5s;
+      transition: all 0.3s;
       &:not(:first-child) {
         &:hover {
-          transform: scale(1.01);
+          // transform: scale(1.015);
 
           background-color: #199844;
           td {
@@ -149,6 +138,11 @@
   }
 }
 
-.loading {
+.loading-grow {
   @include center;
+}
+
+.loading-spinner {
+  @include center;
+  top: 75%;
 }

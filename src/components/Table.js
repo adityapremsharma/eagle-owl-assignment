@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { lazy, Suspense } from "react";
-import Loading from "./Loading";
+import { LoadingSpinner } from "./Loading";
 import { fetchRecipeList } from "../apis/Api";
 import { recipe, active } from "./Functions";
 // import Row from "./Row";
@@ -129,7 +129,7 @@ export default function Table() {
             <th className="align-right">Gross Margin</th>
             <th>Tags / Actions</th>
           </tr>
-          <Suspense fallback={<Loading />}>
+          <Suspense fallback={<LoadingSpinner />}>
             {recipeData.map((data) => (
               <Row key={data.id} data={data} checked={checked} />
             ))}
