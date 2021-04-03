@@ -1,23 +1,8 @@
 @import "abstracts/mixins";
-@import "abstracts/variables";
 
 @import "base/base";
-@import "base/typography";
-@import "base/animations";
-@import "base/utilities";
-@import "base/scrollbar";
 
-@import "layout/navbar";
-@import "layout/intro";
-@import "layout/about";
-@import "layout/projects";
-@import "layout/testimonials";
-@import "layout/contact";
-@import "layout/contactHome";
-
-@import "components/bg";
-@import "components/btn";
 @import "components/card";
-@import "components/carousel";
-@import "components/input";
-@import "components/container";
+@import "components/btn";
+
+@import "pages/dashboard";
